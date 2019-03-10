@@ -25,14 +25,14 @@ curry$name <- rep("Stephen Curry", length(curry$team_name))
 ## Make shot_made_flag more informative
 iguodala$shot_made_flag[iguodala$shot_made_flag == "n"] <- "shot_no"
 iguodala$shot_made_flag[iguodala$shot_made_flag == "y"] <- "shot_yes"
-green$shot_made_flag[iguodala$shot_made_flag == "n"] <- "shot_no"
-green$shot_made_flag[iguodala$shot_made_flag == "y"] <- "shot_yes"
-durant$shot_made_flag[iguodala$shot_made_flag == "n"] <- "shot_no"
-durant$shot_made_flag[iguodala$shot_made_flag == "y"] <- "shot_yes"
-thompson$shot_made_flag[iguodala$shot_made_flag == "n"] <- "shot_no"
-thompson$shot_made_flag[iguodala$shot_made_flag == "y"] <- "shot_yes"
-curry$shot_made_flag[iguodala$shot_made_flag == "n"] <- "shot_no"
-curry$shot_made_flag[iguodala$shot_made_flag == "y"] <- "shot_yes"
+green$shot_made_flag[green$shot_made_flag == "n"] <- "shot_no"
+green$shot_made_flag[green$shot_made_flag == "y"] <- "shot_yes"
+durant$shot_made_flag[durant$shot_made_flag == "n"] <- "shot_no"
+durant$shot_made_flag[durant$shot_made_flag == "y"] <- "shot_yes"
+thompson$shot_made_flag[thompson$shot_made_flag == "n"] <- "shot_no"
+thompson$shot_made_flag[thompson$shot_made_flag == "y"] <- "shot_yes"
+curry$shot_made_flag[curry$shot_made_flag == "n"] <- "shot_no"
+curry$shot_made_flag[curry$shot_made_flag == "y"] <- "shot_yes"
 
 
 ## Add the minute columns to each data set 
