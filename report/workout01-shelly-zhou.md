@@ -38,8 +38,6 @@ Effective Shooting Percentage
     ## 4 Stephen Curry   1250   584     0.467
     ## 5 Draymond Green   578   245     0.424
 
-    ## [1] "C:/Berkeley/Stat-133/Workout/workout01/report"
-
 ### Graph of players shot
 
 <embed src="../images/gsw-shot-charts.pdf" width="80%" style="display: block; margin: auto;" type="application/pdf" />
