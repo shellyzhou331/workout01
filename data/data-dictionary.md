@@ -1,5 +1,5 @@
 # Information of Data
-### We have five csv files that contain information about five famous basketball players. Here are some brief descriptions regarding the variables. Each observation is a shot that the player has taken in a game. 
+### We have five csv files that contain information about five famous basketball players. Here are some brief descriptions regarding the variables. Each observation gives information of a shot that the player has taken in a certain game. 
 
 * team_name : The name of team this player belongs to in NBA.
 
