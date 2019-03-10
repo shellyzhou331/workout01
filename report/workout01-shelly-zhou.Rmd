@@ -34,8 +34,9 @@ allpoint
 ###Graph of players shot 
 ```{r label, out.width = "80%", include = TRUE, echo = FALSE, fig.align='center'}
 library(knitr)
-knitr::include_graphics("../images/gsw-shot-charts.pdf")
+knitr::include_graphics("../images/gsw-shot-charts.png")
 ```
+
 
 
 

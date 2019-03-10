@@ -40,4 +40,4 @@ Effective Shooting Percentage
 
 ### Graph of players shot
 
-<embed src="../images/gsw-shot-charts.pdf" width="80%" style="display: block; margin: auto;" type="application/pdf" />
+<img src="../images/gsw-shot-charts.png" width="80%" style="display: block; margin: auto;" />
