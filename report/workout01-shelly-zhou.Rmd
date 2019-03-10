@@ -30,15 +30,12 @@ threepoint
 #Overall field goal 
 allpoint <- shots_data[ , c("name", "shot_made_flag")] %>% group_by(name) %>% summarise(total = n(), made = sum(shot_made_flag == "shot_yes")) %>% mutate(perc_made = made/total) %>% arrange(desc(perc_made))
 allpoint
-getwd()
 ```
-
-
-
-###Graphs of shots for each player 
-```{r out.width = "80%", echo = FALSE, fig.align='center'}
+###Graph of players shot 
+```{r label, out.width = "80%", include = TRUE, echo = FALSE, fig.align='center'}
 library(knitr)
-include_graphics("../images/gsw-shot-charts.pdf")
+knitr::include_graphics("../images/gsw-shot-charts.pdf")
 ```
+
 
 

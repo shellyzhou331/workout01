@@ -40,6 +40,6 @@ Effective Shooting Percentage
 
     ## [1] "C:/Berkeley/Stat-133/Workout/workout01/report"
 
-### Graphs of shots for each player
+### Graph of players shot
 
 <embed src="../images/gsw-shot-charts.pdf" width="80%" style="display: block; margin: auto;" type="application/pdf" />
